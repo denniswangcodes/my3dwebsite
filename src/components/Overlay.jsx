@@ -40,9 +40,9 @@ export const Overlay = () => {
       <div class="w-screen">
         <Section opacity={opacityFirstSection}>
           <h1 className="font-semibold font-serif text-2xl">
-            Hello, I'm Wawa Sensei
+            Hello, I'm Dennis Wang
           </h1>
-          <p className="text-gray-500">Welcome to my beautiful portfolio</p>
+          <p className="text-gray-500">Welcome to my remote office.</p>
           <p className="mt-3">I know:</p>
           <ul className="leading-9">
             <li>🧑‍💻 How to code</li>
@@ -55,37 +55,39 @@ export const Overlay = () => {
           <h1 className="font-semibold font-serif text-2xl">
             Here are my skillsets 🔥
           </h1>
-          <p className="text-gray-500">PS: I never test</p>
+          <p className="text-gray-500">Below and much more.</p>
           <p className="mt-3">
             <b>Frontend 🚀</b>
           </p>
           <ul className="leading-9">
             <li>ReactJS</li>
-            <li>React Native</li>
-            <li>VueJS</li>
+            <li>AngularJS</li>
+            <li>Typescript</li>
             <li>Tailwind</li>
           </ul>
           <p className="mt-3">
             <b>Backend 🔬</b>
           </p>
           <ul className="leading-9">
+            <li>Java</li>
+            <li>Python</li>
             <li>NodeJS</li>
-            <li>tRPC</li>
-            <li>NestJS</li>
-            <li>PostgreSQL</li>
+            <li>SQL</li>
+            <li>NoSQL</li>
           </ul>
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
         <Section opacity={opacityLastSection}>
           <h1 className="font-semibold font-serif text-2xl">
-            🤙 Call me maybe?
+            🤙 Email me maybe?
           </h1>
-          <p className="text-gray-500">
-            I'm very expensive but you won't regret it
-          </p>
+          <p className="text-gray-500">I would love to chat more with you.</p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📞 <a href="tel:(+42) 4242-4242-424242">(+42) 4242-4242-424242</a>
+            ✉️ <a href="denniswang.pro@gmail.com">denniswang.pro@gmail.com</a>
           </p>
+          {/* <p className="mt-6 p-3 bg-slate-200 rounded-lg">
+            📞 <a href="denniswang.pro@gmail.com">denniswang.pro@gmail.com</a>
+          </p> */}
         </Section>
       </div>
     </Scroll>
