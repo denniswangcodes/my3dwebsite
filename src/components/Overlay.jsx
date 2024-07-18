@@ -83,7 +83,10 @@ export const Overlay = () => {
           </h1>
           <p className="text-gray-500">I would love to chat more with you.</p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            ✉️ <a href="denniswang.pro@gmail.com">denniswang.pro@gmail.com</a>
+            ✉️{" "}
+            <a href="mailto:denniswang.pro@gmail.com">
+              denniswang.pro@gmail.com
+            </a>
           </p>
           {/* <p className="mt-6 p-3 bg-slate-200 rounded-lg">
             📞 <a href="denniswang.pro@gmail.com">denniswang.pro@gmail.com</a>
